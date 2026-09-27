@@ -1,5 +1,5 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.2",
   "items": [
     {"trigger":"RIGHT_CLICK", "eiId":"WhisperingAcorn", "ms":500000},
     {"trigger":"RIGHT_CLICK", "eiId":"BaldursStaff", "ms":25000},
@@ -33,7 +33,12 @@
     {"trigger":"ON_BLOCK_BREAK","eiId":"NEXUS_STARFORGESHOVELII","ms":20000,"tags":"AllowCrouch","level":2},
     {"trigger":"ON_BLOCK_BREAK", "eiId":"NEXUS_STARFORGESHOVELIII", "ms":15000,"tags":"AllowCrouch","level":3},
 
-    {"trigger":"RIGHT_CLICK","eiId":"COMMUNITY_DEMMIEFLOWERCHARM","ms":16000,"tags":"AllowCrouch"},
+    {"trigger":"RIGHT_CLICK","eiId":"COMMUNITY_DEMMIESFLOWERCHARM","ms":17000,"tags":"AllowCrouch"},
+    {"trigger":"RIGHT_CLICK","eiId":"COMMUNITY_LAMMERSSUSPICIOUSSTEW","ms":15000,"tags":"AllowCrouch"},
+    {"trigger":"RIGHT_CLICK","eiId":"COMMUNITY_IONANDMISTICSYARN","ms":60000,"tags":"AllowCrouch"},
+    {"trigger":"RIGHT_CLICK","eiId":"COMMUNITY_ANNASBREAD","ms":25000,"tags":"AllowCrouch"},   
+    {"trigger":"SNEAK_RIGHT_CLICK","eiId":"COMMUNITY_FLWERSTIARA","ms":20000},
+
     {"trigger":"SNEAK_RIGHT_CLICK", "eiId":"CRYO_CRYOSPEAR", "ms":18000}
   ]
 }
