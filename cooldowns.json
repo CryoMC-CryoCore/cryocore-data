@@ -46,7 +46,7 @@
     {"trigger":"ON_BLOCK_BREAK","eiId":"CENTURION_AURELIUSPICKAXE","ms":20000,"tags":"AllowCrouch"},
     {"trigger":"RIGHT_CLICK","eiId":"CENTURION_ETERNALBANQUET","ms":24000,"tags":"AllowCrouch"},
 
-    {"trigger":"RIGHT_CLICK", "eiId":"ANNIVERSARY_CRYOBIRTHDAYSNOWCONE", "ms":60000, "tags":"AllowCrouch"}
+    {"trigger":"RIGHT_CLICK", "eiId":"ANNIVERSARY_CRYOBIRTHDAYSNOWCONE", "ms":60000, "tags":"AllowCrouch"},
     {"trigger":"SNEAK_RIGHT_CLICK", "eiId":"CRYO_CRYOSPEAR", "ms":18000}
   ]
 }
