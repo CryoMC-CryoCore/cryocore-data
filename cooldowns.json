@@ -1,5 +1,5 @@
 {
-  "version": "1.0.2",
+  "version": "1.0.3",
   "items": [
     {"trigger":"RIGHT_CLICK", "eiId":"WhisperingAcorn", "ms":500000},
     {"trigger":"RIGHT_CLICK", "eiId":"BaldursStaff", "ms":25000},
@@ -39,6 +39,13 @@
     {"trigger":"RIGHT_CLICK","eiId":"COMMUNITY_ANNASBREAD","ms":25000,"tags":"AllowCrouch"},   
     {"trigger":"SNEAK_RIGHT_CLICK","eiId":"COMMUNITY_FLWERSTIARA","ms":20000},
 
+    {"trigger":"SNEAK_RIGHT_CLICK","eiId":"CENTURION_ORCUSSBLADE","ms":50000},   
+    {"trigger":"SNEAK_RIGHT_CLICK","eiId":"CENTURION_AETERNUM","ms":22000},
+    {"trigger":"RIGHT_CLICK","eiId":"CENTURION_CUPIDSBLESSING","ms":85000,"tags":"AllowCrouch"},
+    {"trigger":"LEFT_CLICK","eiId":"CENTURION_ROOTWEAVER","ms":12000,"tags":"AllowCrouch"},
+    {"trigger":"ON_BLOCK_BREAK","eiId":"CENTURION_AURELIUSPICKAXE","ms":20000,"tags":"AllowCrouch"},
+    {"trigger":"RIGHT_CLICK","eiId":"CENTURION_ETERNALBANQUET","ms":24000,"tags":"AllowCrouch"},
+    
     {"trigger":"SNEAK_RIGHT_CLICK", "eiId":"CRYO_CRYOSPEAR", "ms":18000}
   ]
 }
