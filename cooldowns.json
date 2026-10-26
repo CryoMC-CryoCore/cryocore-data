@@ -1,15 +1,16 @@
 {
-  "version": "1.0.3",
+  "version": "1.0.4",
   "items": [
-    {"trigger":"RIGHT_CLICK", "eiId":"WhisperingAcorn", "ms":500000},
-    {"trigger":"RIGHT_CLICK", "eiId":"BaldursStaff", "ms":25000},
-    {"trigger":"RIGHT_CLICK", "eiId":"ToucansCall", "ms":20000},
-    
+    {"trigger":"RIGHT_CLICK", "eiId":"FANTASY_ZOMBIEDISGUISE", "ms":120000},
+    {"trigger":"RIGHT_CLICK", "eiId":"FANTASY_BALDURSSTAFF", "ms":25000, "tags":"AllowCrouch"},
+    {"trigger":"RIGHT_CLICK", "eiId":"FANTASY_WHISPERINGACORN", "ms":900000, "tags":"AllowCrouch"},
+    {"trigger":"RIGHT_CLICK", "eiId":"FANTASY_TOUCANSCALL", "ms":20000, "tags":"AllowCrouch"},
+
     {"trigger":"RIGHT_CLICK", "eiId":"ChristmasWreath", "ms":60000},
     {"trigger":"RIGHT_CLICK", "eiId":"CandycaneSword", "ms":5000},
 
     {"trigger":"RIGHT_CLICK", "eiId":"COSMOS_THEJOKESTERSJOURNAL", "ms":300000},
-    {"trigger":"", "eiId":"COSMOS_ENDERMANDISGUISE", "ms":120000},
+    {"trigger":"RIGHT_CLICK", "eiId":"COSMOS_ENDERMANDISGUISE", "ms":120000},
     {"trigger":"", "eiId":"COSMOS_STARBORNSUMMONER", "ms":5000},
     {"trigger":"ON_BLOCK_BREAK", "eiId":"COSMOS_STELLARAXE", "ms":20000},
     {"trigger":"ON_BLOCK_BREAK", "eiId":"COSMOS_SUPERNOVASCYTHE", "ms":5000},
@@ -22,9 +23,11 @@
     {"trigger":"RIGHT_CLICK", "eiId":"SORCERY_SCORCHFANG", "ms":12000},
     {"trigger":"SNEAK_RIGHT_CLICK", "eiId":"SORCERY_ARCANEORB", "ms":10000},
     {"trigger":"SNEAK_LEFT_CLICK", "eiId":"SORCERY_WIZARDDAGGER", "ms":14000},
+    {"trigger":"RIGHT_CLICK", "eiId":"SORCERY_WITCHDISGUISE", "ms":120000},
 
     {"trigger":"RIGHT_CLICK", "eiId":"SUNFLOWER_SUNSKISS", "ms":25000},
     {"trigger":"ON_BLOCK_BREAK", "eiId":"SUNFLOWER_MEADOWSHEARS", "ms":6000},
+    {"trigger":"RIGHT_CLICK", "eiId":"SUNFLOWER_BEEDISGUISE", "ms":120000},
 
     {"trigger":"RIGHT_CLICK", "eiId":"NEXUS_RIFTPHASE", "ms":5000},
     {"trigger":"RIGHT_CLICK", "eiId":"NEXUS_NANOCOMPRESSOR", "ms":30000},
@@ -32,6 +35,7 @@
     {"trigger":"ON_BLOCK_BREAK", "eiId":"NEXUS_STARFORGESHOVELI", "ms":20000,"tags":"AllowCrouch","level":1},
     {"trigger":"ON_BLOCK_BREAK","eiId":"NEXUS_STARFORGESHOVELII","ms":20000,"tags":"AllowCrouch","level":2},
     {"trigger":"ON_BLOCK_BREAK", "eiId":"NEXUS_STARFORGESHOVELIII", "ms":15000,"tags":"AllowCrouch","level":3},
+    {"trigger":"RIGHT_CLICK", "eiId":"NEXUS_KITTENDISGUISE", "ms":120000},
 
     {"trigger":"RIGHT_CLICK","eiId":"COMMUNITY_DEMMIESFLOWERCHARM","ms":17000,"tags":"AllowCrouch"},
     {"trigger":"RIGHT_CLICK","eiId":"COMMUNITY_LAMMERSSUSPICIOUSSTEW","ms":15000,"tags":"AllowCrouch"},
@@ -43,9 +47,12 @@
     {"trigger":"SNEAK_RIGHT_CLICK","eiId":"CENTURION_AETERNUM","ms":22000},
     {"trigger":"RIGHT_CLICK","eiId":"CENTURION_CUPIDSBLESSING","ms":85000,"tags":"AllowCrouch"},
     {"trigger":"LEFT_CLICK","eiId":"CENTURION_ROOTWEAVER","ms":12000,"tags":"AllowCrouch"},
-    {"trigger":"ON_BLOCK_BREAK","eiId":"CENTURION_AURELIUSPICKAXE","ms":20000,"tags":"AllowCrouch"},
+    {"trigger":"ON_BLOCK_BREAK","eiId":"CENTURION_AURELIUSPICKAXE","ms":19000,"tags":"AllowCrouch"},
     {"trigger":"RIGHT_CLICK","eiId":"CENTURION_ETERNALBANQUET","ms":24000,"tags":"AllowCrouch"},
+    {"trigger":"RIGHT_CLICK", "eiId":"CENTURION_HORSEDISGUISE", "ms":120000},
 
+
+    
     {"trigger":"RIGHT_CLICK", "eiId":"ANNIVERSARY_CRYOBIRTHDAYSNOWCONE", "ms":60000, "tags":"AllowCrouch"},
     {"trigger":"SNEAK_RIGHT_CLICK", "eiId":"CRYO_CRYOSPEAR", "ms":18000}
   ]
